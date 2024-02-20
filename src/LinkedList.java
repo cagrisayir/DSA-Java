@@ -113,6 +113,8 @@ public class LinkedList {
     }
 
     public void reverse() {
+        if (isEmpty()) return;
+
         var previous = first;
         var current = first.next;
         while (current != null) {
@@ -125,5 +127,21 @@ public class LinkedList {
         last = first;
         last.next = null;
         first = previous;
+    }
+
+    public int getKthFromTheEnd(int k) {
+        if (isEmpty()) throw new IllegalStateException("Empty list");
+        var a = first;
+        var b = first;
+        for (int i = 0; i < k - 1; i++) {
+            b = b.next;
+            if (b == null)
+                throw new IllegalArgumentException("Bigger element");
+        }
+        while (b != last) {
+            a = a.next;
+            b = b.next;
+        }
+        return a.value;
     }
 }
