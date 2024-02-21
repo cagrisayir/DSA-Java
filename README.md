@@ -28,3 +28,7 @@ Also, you can find the solution of questions below in _src/StackInterview.java_
 #### 1 - Reverse a string (solved)
 
 #### 2 - Balanced Expressions
+
+## Queue
+
+You can access custom Queue with Array from `src/ArrayQueue.java`
