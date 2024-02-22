@@ -2,33 +2,31 @@
 
 ## Arrays
 
-You can access custom Dynamic Array Class from src/Array.java
+You can access custom Dynamic Array Class from `src/Array.java`
 
 ## Linked Lists
 
-You can access custom Linked List Class from src/LinkedList.java
+You can access custom Linked List Class from `src/LinkedList.java`
 
 ## Stacks
 
-You can access custom Stack Class from src/Stack.java
+You can access custom Stack Class from `src/Stack.java`
 
-Also, you can find the solution of questions below in _src/StackInterview.java_
+Also, you can find the solution of questions below in `src/StackInterview.java`
 
-### Operations
-
-* **push(item)**: Adds an item on top of the stack **O(1)**
-* **pop()**: removes the item on the top. **O(1)**
-* **peek()**: returns the item on the top without removing it. **O(1)**
-* **isEmpty()**: tells us stack is empty or not. **O(1)**
-
-### Created Custom stack class using array.
+#### Created Custom stack class using array.
 
 ### [Solved] Common Interview Questions
 
-#### 1 - Reverse a string (solved)
+#### 1 - Reverse a string`src/StackInterview`
 
-#### 2 - Balanced Expressions
+#### 2 - Balanced Expressions `src/StackInterview`
 
 ## Queue
 
 You can access custom Queue with Array from `src/ArrayQueue.java`
+
+## Hash Tables
+
+**Question**: First non-repeating char `src/CharFinder.java`
+**Question**: First repeated char `src/CharFinder.java`
