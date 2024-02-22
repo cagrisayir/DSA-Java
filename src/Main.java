@@ -1,9 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        HashTable table = new HashTable();
-        table.put(6, "A");
-        table.put(8, "B");
-        table.put(11, "C");
-        System.out.println(table.get(112));
+        Tree tree = new Tree();
+        tree.insert(7);
+        tree.insert(4);
+        tree.insert(9);
+        tree.insert(1);
+        tree.insert(6);
+        tree.insert(8);
+        tree.insert(10);
+
+        tree.find(19);
+        System.out.println(tree.find(7));
+
     }
 }

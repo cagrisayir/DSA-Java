@@ -34,3 +34,11 @@ You can access custom Hash Table implementation from `src/HashTable.java`
 
 **Question**: First non-repeating char `src/CharFinder.java`
 **Question**: First repeated char `src/CharFinder.java`
+
+# Trees
+
+## Binary Trees
+
+You can find in `src/Tree.Java`
+implementation 1: **insert** -> O(log n)
+implementation 2: **find** -> O(log n)
