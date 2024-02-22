@@ -28,5 +28,9 @@ You can access custom Queue with Array from `src/ArrayQueue.java`
 
 ## Hash Tables
 
+You can access custom Hash Table implementation from `src/HashTable.java`
+
+(Collisions are handled with Linked Lists [chaining] )
+
 **Question**: First non-repeating char `src/CharFinder.java`
 **Question**: First repeated char `src/CharFinder.java`
