@@ -9,7 +9,8 @@ public class Main {
         tree.insert(8);
         tree.insert(10);
 
-
-        System.out.println(tree.isBinarySearchTree());
+        var list = tree.getNodesAtDistance(1);
+        System.out.println(list);
+//        System.out.println(tree.isBinarySearchTree());
     }
 }

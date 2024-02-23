@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Tree {
     private class Node {
         private int value;
@@ -164,5 +166,24 @@ public class Tree {
 
         return isBinarySearchTree(root.leftChild, min, root.value)
                 && isBinarySearchTree(root.rightChild, root.value, max);
+    }
+
+    public ArrayList<Integer> getNodesAtDistance(int distance) {
+        var list = new ArrayList<Integer>();
+        getNodesAtDistance(root, distance, list);
+        return list;
+    }
+
+    private void getNodesAtDistance(Node root, int distance, ArrayList<Integer> list) {
+        if (root == null)
+            return;
+        if (distance == 0) {
+            System.out.println(root.value);
+            list.add(root.value);
+            return;
+        }
+
+        getNodesAtDistance(root.leftChild, distance - 1, list);
+        getNodesAtDistance(root.rightChild, distance - 1, list);
     }
 }
