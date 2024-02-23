@@ -42,3 +42,4 @@ You can access custom Hash Table implementation from `src/HashTable.java`
 You can find in `src/Tree.Java`
 implementation 1: **insert** -> O(log n)
 implementation 2: **find** -> O(log n)
+implementation 3: **traverse** -> pre, in, post order

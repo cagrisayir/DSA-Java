@@ -9,8 +9,6 @@ public class Main {
         tree.insert(8);
         tree.insert(10);
 
-        tree.find(19);
-        System.out.println(tree.find(7));
-
+        tree.traverseInOrder();
     }
 }
