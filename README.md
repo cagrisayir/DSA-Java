@@ -45,9 +45,10 @@ You can find in `src/Tree.Java`
 * implementation 2: **find** -> O(log n)
 * implementation 3: **traverse** -> pre, in, post order
 * implementation 4: **height of tree**
-* implementation 5: **Min value in a tree**
-* implementation 6: **Max value in a tree**
-* implementation 7: **Level order Traversal**
+* implementation 5: **Min value in a tree** O(n)
+* implementation 6: **Min value in a Binary Search tree** O(log n)
+* implementation 7: **Max value in a tree** O(n)
+* implementation 8: **Level order Traversal**
 
 **Exercises**
 

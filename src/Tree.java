@@ -104,7 +104,15 @@ public class Tree {
     }
 
     public int minimum() {
-        return minimum(root);
+        if (root == null)
+            throw new IllegalStateException("Empty Tree");
+        var current = root;
+        var last = current;
+        while (current != null) {
+            last = current;
+            current = current.leftChild;
+        }
+        return last.value;
     }
 
     private int minimum(Node root) {
@@ -123,5 +131,23 @@ public class Tree {
         if (root.leftChild == null && root.rightChild == null)
             return root.value;
         return Math.max(Math.max(maximum(root.leftChild), maximum(root.rightChild)), root.value);
+    }
+
+    public boolean equals(Tree other) {
+        if (other == null) return false;
+        return equals(root, other.root);
+    }
+
+    private boolean equals(Node first, Node second) {
+        // Both null
+        if (first == null && second == null) return true;
+
+        // Either is not null
+        if (first != null && second != null) {
+            return first.value == second.value
+                    && equals(first.leftChild, second.leftChild)
+                    && equals(first.rightChild, second.rightChild);
+        }
+        return false;
     }
 }
