@@ -10,5 +10,6 @@ public class Main {
         tree.insert(10);
 
         tree.traverseInOrder();
+        System.out.println(tree.height());
     }
 }
