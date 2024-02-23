@@ -102,4 +102,26 @@ public class Tree {
                 height(root.leftChild),
                 height(root.rightChild));
     }
+
+    public int minimum() {
+        return minimum(root);
+    }
+
+    private int minimum(Node root) {
+        if (root == null) return Integer.MAX_VALUE;
+        if (root.leftChild == null && root.rightChild == null)
+            return root.value;
+        return Math.min(Math.min(minimum(root.leftChild), minimum(root.rightChild)), root.value);
+    }
+
+    public int maximum() {
+        return maximum(root);
+    }
+
+    private int maximum(Node root) {
+        if (root == null) return Integer.MIN_VALUE;
+        if (root.leftChild == null && root.rightChild == null)
+            return root.value;
+        return Math.max(Math.max(maximum(root.leftChild), maximum(root.rightChild)), root.value);
+    }
 }
