@@ -40,12 +40,19 @@ You can access custom Hash Table implementation from `src/HashTable.java`
 ## Binary Trees
 
 You can find in `src/Tree.Java`
-implementation 1: **insert** -> O(log n)
-implementation 2: **find** -> O(log n)
-implementation 3: **traverse** -> pre, in, post order
-implementation 4: **height of tree**
 
+* implementation 1: **insert** -> O(log n)
+* implementation 2: **find** -> O(log n)
+* implementation 3: **traverse** -> pre, in, post order
+* implementation 4: **height of tree**
+* implementation 5: **Min value in a tree**
+* implementation 6: **Level order Traversal**
 
+**Exercises**
+
+* Equality Checking
+* Validating BST
+* Nodes at K Distance
 
 
 
