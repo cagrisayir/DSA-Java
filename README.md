@@ -46,7 +46,8 @@ You can find in `src/Tree.Java`
 * implementation 3: **traverse** -> pre, in, post order
 * implementation 4: **height of tree**
 * implementation 5: **Min value in a tree**
-* implementation 6: **Level order Traversal**
+* implementation 6: **Max value in a tree**
+* implementation 7: **Level order Traversal**
 
 **Exercises**
 
