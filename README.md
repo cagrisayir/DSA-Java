@@ -39,7 +39,7 @@ You can access custom Hash Table implementation from `src/HashTable.java`
 
 ## Binary Trees
 
-You can find in `src/Tree.Java`
+You can find in `src/Tree.java`
 
 * implementation 1: **insert** -> O(log n)
 * implementation 2: **find** -> O(log n)
@@ -56,5 +56,18 @@ You can find in `src/Tree.Java`
 * Validating BST
 * Nodes at K Distance
 
+## AVL Trees
 
+We use AVL trees to balance the unbalanced trees.
+
+You can find in `src/AVLTree.java`
+
+* Implemented *insert*
+* Height calculation
+* Balance Factor calculated `balanceFactor = height(L) - height(R)`
+    * if balance factor > 1 than it is "Left heavy"
+    * if balance factor < -1 than it is "Right heavy"
+* Implemented **Rotation**
+
+## Heaps
 
