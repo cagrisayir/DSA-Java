@@ -87,3 +87,22 @@ You can find in `src/Heap.java`
 * Implemented **Heapify**
 * Kth Largest Item
     * `src/MaxHeap.java`
+
+## Tries
+
+Mostly use for Autocompletion.
+
+You can find in `src/Trie.java`
+
+* **Lookup** -> O(L) -> L: Length of the word. (Constant)
+* **Insert** -> O(L)
+* **Delete** -> O(L)
+
+* Implemented *insert* with HashMap
+* Implemented *contains*
+* Implemented *remove*
+* Implemented *Auto Completion*
+
+
+
+
