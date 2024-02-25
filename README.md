@@ -71,3 +71,19 @@ You can find in `src/AVLTree.java`
 
 ## Heaps
 
+You can find in `src/Heap.java`
+
+* Implemented *Insert*
+* Implemented *Bubble up*
+    * Found Parent with `(index - 1) / 2`
+    * *Swap*ed
+* Implemented *remove*
+    * Removed the root
+    * **Bubble Down** implemented.
+* Implemented Priority Queue as a Heap
+    * `src/PriorityQueueHeap.java`
+    * in queues insert is O(n)
+        * with heap, we decrease it to O(log n)
+* Implemented **Heapify**
+* Kth Largest Item
+    * `src/MaxHeap.java`

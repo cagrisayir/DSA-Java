@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        var tree = new AVLTree();
-        tree.insert(10);
-        tree.insert(20);
-        tree.insert(30);
+        int[] numbers = {5, 3, 8, 4, 1, 2};
+        System.out.println(MaxHeap.getKthLargest(numbers, 1));
     }
 }
