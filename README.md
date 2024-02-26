@@ -103,6 +103,22 @@ You can find in `src/Trie.java`
 * Implemented *remove*
 * Implemented *Auto Completion*
 
+## Graphs
 
+Graphs are incredibly versatile because they model relationships between things.
 
+You can find in `src/Graph.java`
 
+* Implemented with **Adjacency List**
+    * Add and Remove Nodes
+    * Add and Remove Edges
+
+#### Traversal Algorithms
+
+* Depth-first Traversal (recursive)
+* Depth-first Traversal (iterative)
+* Breadth-first Traversal (iterative)
+* Topological Sorting
+* Cycle Detection (Directed Graphs)
+
+## Undirected Graphs
