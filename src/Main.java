@@ -7,6 +7,6 @@ public class Main {
         graph.addEdge("A", "B");
         graph.addEdge("A", "C");
         graph.addEdge("B", "C");
-        graph.traverseDepthFirst("C");
+        graph.traverseDepthFirst("A");
     }
 }
