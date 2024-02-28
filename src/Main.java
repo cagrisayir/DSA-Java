@@ -1,12 +1,10 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        var graph = new Graph();
-        graph.addNode("A");
-        graph.addNode("B");
-        graph.addNode("C");
-        graph.addEdge("A", "B");
-        graph.addEdge("A", "C");
-        graph.addEdge("B", "C");
-        graph.traverseDepthFirst("A");
+        int[] numbers = {7, 3, 1, 4, 6, 2, 3};
+        var bubbleSort = new BubbleSort();
+        bubbleSort.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }

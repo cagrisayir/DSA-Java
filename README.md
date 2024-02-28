@@ -126,3 +126,11 @@ You can find in `src/Graph.java`
 You can find in `src/WeightedGraph.java`
 
 * implemented weighted graph
+
+# Sorting Algorithms
+
+## Bubble Sort
+
+In worst => O(n^2)
+
+* Implemented bubble sort
