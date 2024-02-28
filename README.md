@@ -134,3 +134,13 @@ You can find in `src/WeightedGraph.java`
 In worst => O(n^2)
 
 * Implemented bubble sort
+
+## Selection Sort
+
+O(n^2)
+
+* Implemented selection sort
+
+## Insertion Sort
+
+* Implemented insertion sort 
