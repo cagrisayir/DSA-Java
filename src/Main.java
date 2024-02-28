@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] numbers = {7, 3, 1, 4, 6, 2, 3};
-        var sort = new SelectionSort();
+        var sort = new InsertionSort();
         sort.sort(numbers);
         System.out.println(Arrays.toString(numbers));
     }
