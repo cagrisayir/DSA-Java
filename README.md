@@ -143,4 +143,14 @@ O(n^2)
 
 ## Insertion Sort
 
-* Implemented insertion sort 
+* Implemented insertion sort
+
+## Merge Sort
+
+O(n * logn)
+
+## Quick Sort
+
+## Counting Sort
+
+## Bucket Sort
