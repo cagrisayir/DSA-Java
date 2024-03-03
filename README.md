@@ -153,4 +153,8 @@ O(n * logn)
 
 ## Counting Sort
 
+O(n)
+
+Values should be positive integers.
+
 ## Bucket Sort
