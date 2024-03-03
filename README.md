@@ -151,10 +151,26 @@ O(n * logn)
 
 ## Quick Sort
 
+`src/QuickSort.java`
+
 ## Counting Sort
 
+`src/CountingSort.java`
 O(n)
 
 Values should be positive integers.
 
 ## Bucket Sort
+
+`src/BucketSort.java`
+
+------------------------------------------------
+
+# Searching Algorithms
+
+`src/Search.java`
+
+* **Linear Search** implemented.
+    * *O(n)*
+* **Binary Search** implemented.
+    * *O(log n)*
