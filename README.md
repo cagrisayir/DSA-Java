@@ -172,5 +172,14 @@ Values should be positive integers.
 
 * **Linear Search** implemented.
     * *O(n)*
-* **Binary Search** implemented.
-    * *O(log n)*
+
+
+* **Binary Search** implemented both way-iterative and recursive.
+    * Time Complexity: *O(log n)*
+    * Space Complexity:
+        * Recursion: *O(log n)*
+        * Iterative: *O(1)*
+
+* **Ternary Search**
+* **Jump Search**
+* **Exponential Search**
