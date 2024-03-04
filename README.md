@@ -181,5 +181,7 @@ Values should be positive integers.
         * Iterative: *O(1)*
 
 * **Ternary Search**
+    * Time Complexity: *O(log3 n)*
+    * Binary Search faster than Ternary Search due to number of conditions.
 * **Jump Search**
 * **Exponential Search**
