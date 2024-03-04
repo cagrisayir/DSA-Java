@@ -183,5 +183,10 @@ Values should be positive integers.
 * **Ternary Search**
     * Time Complexity: *O(log3 n)*
     * Binary Search faster than Ternary Search due to number of conditions.
+
 * **Jump Search**
+    * Improvement of Linear Search.
+    * Better than Linear Search.
+    * Binary Search faster than Jump Search.
+
 * **Exponential Search**
