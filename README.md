@@ -190,3 +190,5 @@ Values should be positive integers.
     * Binary Search faster than Jump Search.
 
 * **Exponential Search**
+    * We use binary search in it.
+    * O(log i)
