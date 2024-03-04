@@ -192,3 +192,17 @@ Values should be positive integers.
 * **Exponential Search**
     * We use binary search in it.
     * O(log i)
+
+------------------------------------------------
+
+# String Manipulation Algorithms
+
+`src/StringUtils.java`
+
+1. Find the number of vowels in a String.
+    * A, E, O, U, I.
+    * hello -> 2.
+2. Reverse a string.
+    * hello -> olleh
+3. Reverse the order of words in a sentence.
+    * Trees are beautiful -> beautiful are Trees
