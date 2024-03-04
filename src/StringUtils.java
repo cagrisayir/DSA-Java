@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,5 +21,17 @@ public class StringUtils {
             reversed.append(str.charAt(i)); // O(1)
 
         return reversed.toString();
+    }
+
+    public static String reverseWords(String sentence) {
+        if (sentence == null) return "";
+        String[] words = sentence.trim().split(" ");
+//        StringBuilder reversedSentence = new StringBuilder();
+//        for (int i = words.length - 1; i >= 0; i--) {
+//            reversedSentence.append(words[i] + " ");
+//        }
+//        return reversedSentence.toString().trim();
+        Collections.reverse(Arrays.asList(words));
+        return String.join(" ", words);
     }
 }
