@@ -206,3 +206,20 @@ Values should be positive integers.
     * hello -> olleh
 3. Reverse the order of words in a sentence.
     * Trees are beautiful -> beautiful are Trees
+4. Check if a string is a rotation of another string.
+    * "ABCD", "CDAB" -> true
+    * "ABCD", "ADBC" -> false
+5. Remove duplicate chars in a string.
+    * "helloooo!!" -> "helo!"
+6. Find the most repeated char in a string.
+    * Helloooo -> 'o'
+7. Capitalize the first char of word.
+    * Also, remove extra spaces
+    * "trees are beautiful" -> "Trees Are Beautiful"
+8. is Anagram?
+    * "abcd", "adbc" -> true
+    * "abcd", "acbe" -> false
+9. is palindrome?
+    * "abba" -> true
+    * "abcba" -> true
+    * abac -> false

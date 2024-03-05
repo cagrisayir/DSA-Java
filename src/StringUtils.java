@@ -34,4 +34,16 @@ public class StringUtils {
         Collections.reverse(Arrays.asList(words));
         return String.join(" ", words);
     }
+
+    public static boolean areRotation(String str1, String str2) {
+        if (str1 == null || str2 == null)
+            return false;
+        if (str2.length() != str1.length())
+            return false;
+
+        if (!(str1 + str1).contains(str2))
+            return false;
+
+        return true;
+    }
 }
