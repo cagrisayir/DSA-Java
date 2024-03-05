@@ -100,4 +100,19 @@ public class StringUtils {
 
         return String.join(" ", words);
     }
+
+    public static boolean areAnagrams(String first, String second) {
+        if (first == null
+                || second == null
+                || first.length() != second.length()) // for millions of length
+            return false;
+
+        var array1 = first.toLowerCase().toCharArray();
+        Arrays.sort(array1);
+
+        var array2 = second.toLowerCase().toCharArray();
+        Arrays.sort(array2);
+
+        return Arrays.equals(array2, array1);
+    }
 }
