@@ -115,4 +115,19 @@ public class StringUtils {
 
         return Arrays.equals(array2, array1);
     }
+
+    public static boolean isPalindrome(String str) {
+        if (str == null) return false;
+//        var input = new StringBuilder(str);
+//        input.reverse();
+//        return input.toString().equals(str);
+
+        // better solution
+        int left = 0, right = str.length() - 1;
+        while (left < right)
+            if (str.charAt(left++) != str.charAt(right--))
+                return false;
+
+        return true;
+    }
 }
