@@ -85,4 +85,19 @@ public class StringUtils {
             }
         return result;
     }
+
+    public static String capitalize(String sentence) {
+        if (sentence.trim().isEmpty() || sentence == null)
+            return "";
+        String[] words = sentence
+                .trim() // remove before and after whitespaces
+                .replaceAll(" +", " ") // remove extra whitespaces
+                .split(" "); // split
+        for (var i = 0; i < words.length; i++) {
+            words[i] = words[i].substring(0, 1).toUpperCase()
+                    + words[i].substring(1).toLowerCase();
+        }
+
+        return String.join(" ", words);
+    }
 }
